@@ -76,6 +76,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     }
   }, {
-    tableName: 'de_tb_emp'
+    tableName: 'de_tb_emp',
+    timestamps : false
   });
 };

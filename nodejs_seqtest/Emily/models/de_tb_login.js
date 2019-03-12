@@ -36,6 +36,7 @@ module.exports = function(sequelize, DataTypes) {
       allowNull: false
     }
   }, {
-    tableName: 'de_tb_login'
+    tableName: 'de_tb_login',
+    timestamps : false
   });
 };
